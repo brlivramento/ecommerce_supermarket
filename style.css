@@ -1,0 +1,250 @@
+/* CSS Document */
+body{
+	margin:0px;
+	background:url(images/mainbg.gif) 0 0 repeat-x #fff;
+	color:#666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+	padding-top: 0px;
+	padding-right: 100px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+}
+div, p, ul, h2, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:#fff;
+	text-decoration:underline;
+	background-color: #000033;
+} 
+
+/*----TOP PANEL----*/
+#topPan{width:778px; height:87px; position:relative; margin:0 auto;}
+#topPan #ImgPan{width:229px; height:52px; background:#fff; color:#fff; position:absolute; top:35px; left:0px; padding:0 0 0 35px;}
+#topPan #ImgPan img{width:201px; height:52px;}
+
+
+#topPan ul{
+	width:482px;
+	height:40px;
+	position:absolute;
+	top:39px;
+	right:29px;
+}
+#topPan ul li{width:78px; height:32px; float:left;}
+#topPan ul li a{width:76px; height:32px; display:block; background:url(images/topmenu-normal.jpg) 0 0 no-repeat #F5F4F4; color:#fff; text-decoration:none; font-size:10px; font-weight:bold; text-align:center; line-height:32px; margin:0 2px 0 0;}
+#topPan ul li a:hover{background:url(images/topmenu-hover.jpg) 0 0 no-repeat #F5F4F4; color:#fff; text-decoration:none;}
+
+#topPan ul li.home{background:url(images/topmenu-hover.jpg) 0 0 no-repeat #F5F4F4; color:#fff; text-decoration:none; font-size:12px; font-weight:bold; text-align:center; line-height:32px;}
+/*----/TOP PANEL----*/
+/*----BODY PANEL----*/
+#bodyPan{
+	position:relative;
+	margin-top: 20;
+	margin-right: auto;
+	margin-bottom: 20;
+	margin-left: auto;
+	border: thin solid #999999;
+	background-color: #FFFFFF;
+	visibility: visible;
+	bottom: 200px;
+	height: auto;
+	width: 80%;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+#bodyPan p.toptextpadding{padding:25px 0 0;}
+#bodyPan p span{background:#fff; color:#D20039;}
+#bodyPan p.more{width:81px; height:22px; display:block; margin:0 0 0 606px; background:url(images/more-bg.gif) 0 0 no-repeat;}
+#bodyPan p.more a{width:70px; height:22px; display:block; background:url(images/arrow1.gif) 1% 60% no-repeat; line-height:22px; text-decoration:none; padding:0 0 0 11px;}
+#bodyPan p.more a:hover{background:url(images/arrow2.gif) 1% 60% no-repeat; text-decoration:none;}
+/*----Body Middle Panel----*/
+#bodyMiddlePan{
+	width:680px;
+	position:relative;
+	margin:0 auto;
+	right: 100px;
+}
+/*----Middle Left Panel----*/
+#MiddleLeftPan{width:232px; float:left;}
+#MiddleLeftPan p{padding:14px 0 0; line-height:18px;}
+
+#MiddleLeftPan p.largegraytext{font-size:18px;}
+
+#MiddleLeftPan p.more{width:81px; height:22px; display:block; margin:15px 0 0 145px; background:url(images/more-bg.gif) 0 0 no-repeat; padding:0px;}
+#MiddleLeftPan p.more a{width:70px; height:22px; display:block; background:url(images/arrow1.gif) 1% 60% no-repeat; line-height:22px; text-decoration:none; padding:0 0 0 11px;}
+#MiddleLeftPan p.more a:hover{background:url(images/arrow2.gif) 1% 60% no-repeat; text-decoration:none;}
+
+#MiddleLeftPan p.chat{width:232px; height:70px; padding:14px 0 36px;}
+#MiddleLeftPan p.chat a{width:232px; height:70px; display:block; background:url(images/24hours.gif) 0 0 no-repeat; text-indent:-20000px;}
+#MiddleLeftPan p.chat a:hover{background:url(images/24hours.gif) 0 0 no-repeat; text-indent:-20000px;}
+
+#MiddleLeftPan h2{width:210px; height:50px; display:block; background:url(images/icon1.jpg) 100% 0 no-repeat  #fff; color:#D20039; border-bottom:1px dashed #BDB9B9; font-size:24px; line-height:22px; padding:0 20px 0 0;}
+#MiddleLeftPan h2 span{background:#fff; color:#545454; font-weight:bold; font-size:14px; text-transform:uppercase;}
+
+/*----/Middle Left Panel----*/
+/*----Middle Right Panel----*/
+#MiddleRightPan{width:384px; float:left; padding:0 0 0 73px;}
+#MiddleRightTopPan{width:384px; height:203px; background:url(images/image1.jpg) 0 100% no-repeat; padding:29px 0 0; margin:0 0 40px 0;}
+
+#MiddleRightTopPan p.fresh{width:108px; height:24px; display:block; margin:0 0 0 208px; font-size:20px; text-transform:uppercase;}
+#MiddleRightTopPan p.business{width:170px; height:20px; display:block; margin:0 0 0 210px; background:url(images/dotline.gif) 0 100% repeat-x #fff; color:#6BB600; font-size:27px; text-transform:uppercase; text-align:right;}
+
+#MiddleRightPan h2{width:380px; height:20px; background:url(images/dotline.gif) 0 100% repeat-x #fff; color:#6BB600; font-size:24px;}
+#MiddleRightPan p{padding:8px 0 0;}
+
+#RightListfastPan{width:200px; float:left; padding:10px 0 0;}
+#RightListfastPan ul{width:200px;}
+#RightListfastPan ul li{width:200px; height:20px; float:left;}
+#RightListfastPan ul li a{width:190px; line-height:20px; background:url(images/bullet.gif) 0 6px no-repeat #fff; color:#666; text-decoration:underline; padding:0 0 0 18px;}
+#RightListfastPan ul li a:hover{background:url(images/bullet-hover.gif) 0 6px no-repeat #fff; color:#000; text-decoration:underline;}
+
+#RightListnextPan{width:180px; float:left; padding:10px 0 0;}
+#RightListnextPan ul{width:180px;}
+#RightListnextPan ul li{width:180px; height:20px; float:left;}
+#RightListnextPan ul li a{width:160px; line-height:20px; background:url(images/bullet.gif) 0 6px no-repeat #fff; color:#666; text-decoration:underline; padding:0 0 0 18px;}
+#RightListnextPan ul li a:hover{background:url(images/bullet-hover.gif) 0 6px no-repeat #fff; color:#000; text-decoration:underline;}
+
+/*----/Middle Right Panel----*/
+
+/*----Footer Panel----*/
+#footermainPan{
+	color:#FFFFFF;
+	position:relative;
+	clear:both;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: none;
+	background-repeat: repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	background-color: #000066;
+}
+#footerPan{
+	position:relative;
+	font:12px/15px "Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+#footerPan ul{width:450px; height:20px; position:relative; margin:0 auto;}
+#footerPan li{float:left; }
+#footerPan ul li a{padding:0 10px 0; color:#212121; background:#F4F4F4; text-decoration:none;}
+#footerPan ul li a:hover{text-decoration:underline;}
+
+#footerPan ul.templateworld{width:190px; background:#F4F4F4; color:#212121; display:block; position:relative; margin:0 auto; }
+#footerPan ul.templateworld li{height:20px;}
+#footerPan ul.templateworld li a{background:#F4F4F4; display:block; color:#212121; text-decoration:none; padding:0px;}
+#footerPan ul.templateworld li a:hover{text-decoration:underline;}
+
+#footerPan p.copyright{width:250px; background:#F4F4F4; color:#212121; position:relative; margin:0 auto;}
+
+#footerPanhtml{width:64px; height:19px; display:block; position:absolute; top:73px; left:270px;}
+#footerPanhtml a{width:59px; height:18px; background:#fff; color:#6A6A6A; border:1px solid #B6B6B6; display:block; position:absolute; top:0px; left:0px; line-height:19px; text-align:center; font-weight:bold; text-transform:uppercase; text-decoration:none;}
+#footerPanhtml a:hover{background:#D2D0D0; color:#353427; text-decoration:none;}
+
+#footerPancss{width:64px; height:19px; display:block; position:absolute; top:73px; left:336px;}
+#footerPancss a{width:49px; height:18px; background:#fff; border:1px solid #B6B6B6; color:#6A6A6A; display:block; position:absolute; top:0px; left:0px;line-height:19px; text-transform:uppercase; font-weight:bold; text-align:center; text-decoration:none;}
+#footerPancss a:hover{background:#D2D0D0; color:#353427; text-decoration:none;}
+
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #191970;
+	margin: 0;
+	text-align: right; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	clip: rect(auto,auto,auto,auto);
+	position: static;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	top: 10%;
+}
+.thrColLiq #container {
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: center; /* this overrides the text-align: center on the body element. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+body {
+	color: #333333;
+	background-color: #191970;
+	padding-right: 100px;
+	width: 90%;
+	padding-left: 50px;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:link {
+	color: #CCCCCC;
+}
+
+.style6 {
+	font-size: 10px
+}
+
+.style7 {font-size: small}
+.style8 {font-size: x-small}
+.style9 {font-size: medium}
+#conteudo {
+	position:absolute;
+	left:103px;
+	top:265px;
+	width:665px;
+	height:306px;
+	z-index:1;
+}
+
+#elem {
+	position:absolute;
+	left:721px;
+	top:288px;
+	width:211px;
+	height:47px;
+	z-index:2;
+}
+
+.submit {border:1px solid #FFFFFF; border-radius:3px; font-family:Verdana; color:#FFFFFF; font-wight:bold; background-color:#00008B;}
+
+
+#barraLogin {
+	position:relative;
+	left:auto;
+	top:auto;
+	z-index:1;
+	background-color: #000066;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 10px;
+	width: 100%;
+	line-height: 18px;
+}
+.style10 {font-family: Verdana, Arial, Helvetica, sans-serif}
+
+
+.style11 {color: #000066}
+.style12 {
+	color: #FFFFFF
+}
