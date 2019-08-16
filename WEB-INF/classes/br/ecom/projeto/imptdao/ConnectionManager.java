@@ -26,7 +26,7 @@ public class ConnectionManager {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			ConnectionManager.conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ecommerce_db?useUnicode=true", "root", "root");
+			ConnectionManager.conn = DriverManager.getConnection("jdbc:mysql://mysql:3306/ecommerce_db?useUnicode=true", "root", "root");
 
 		} catch(ClassNotFoundException e) {
 			e.printStackTrace();
@@ -51,13 +51,13 @@ public class ConnectionManager {
 	}
 
 	public static void closeConn() {
-
-		try {
-			ConnectionManager.conn.close();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		
+		if (ConnectionManager.conn != null) {
+			try {
+				ConnectionManager.conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}		
 	}
 	
 	public static void setConn(Connection conn) {
